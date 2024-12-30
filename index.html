@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDE Online: HTML, CSS y JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WEBIDEARG - 2025</h1>
+            <ul>
+                <!-- icono de github -->
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+            </ul>
+        </header>
+    </div>
+        
+        <div class="editor-container">
+            <div class="editor-box">
+                <h2>HTML</h2>
+                <textarea id="htmlInput" placeholder="Escribe tu código HTML aquí..."></textarea>
+            </div>
+            
+            <div class="editor-box">
+                <h2>CSS</h2>
+                <textarea id="cssInput" placeholder="Escribe tu código CSS aquí..."></textarea>
+            </div>
+            
+            <div class="editor-box">
+                <h2>JavaScript</h2>
+                <textarea id="jsInput" placeholder="Escribe tu código JavaScript aquí..."></textarea>
+            </div>
+        </div>
+        
+        <button id="showResultButton">Mostrar Resultado</button>
+        
+        <div class="output-container">
+            <iframe id="output" class="output-frame"></iframe>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
